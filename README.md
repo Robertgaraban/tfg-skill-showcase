@@ -1,74 +1,44 @@
-# Skill: MaquetaciÃ³n TFG/TFM â Facultat de NÃ utica de Barcelona (FNB/UPC)
+# Flujo de maquetación para TFG/TFM · prototipo documental
 
-**Robert Garaban Â· HydroAbyss Technology and Innovation**
+**Tipo:** prototipo académico
 
----
+**Estado:** en desarrollo — 2026
 
-## Â¿QuÃ© hace este skill?
+## Qué demuestra este repositorio
 
-Skill de IA para maquetar Trabajos Finales de Grado (TFG) y MÃ¡ster (TFM) segÃºn la normativa oficial de la **Facultat de NÃ utica de Barcelona (FNB/UPC)**. Aplica estilos Word, estructura obligatoria, tipografÃ­a, paginaciÃ³n, figuras, tablas, ecuaciones y citaciÃ³n ISO 690 â sin reescribir el contenido del autor.
+Este repositorio documenta una especificación de trabajo para revisar la estructura y la maquetación de un TFG/TFM sin reescribir el contenido del autor. El método separa las reglas de formato, la revisión del documento y las acciones que deben completarse manualmente en Word.
 
-**Regla central: maquetar, no reescribir.**
+La regla central es: **maquetar, no reescribir**.
 
----
+## Qué no demuestra
 
-## QuÃ© aplica automÃ¡ticamente
+- No contiene una aplicación, un paquete instalable ni el código de un flujo automático.
+- No acredita que un documento cumpla la normativa vigente; las reglas deben contrastarse con la guía oficial aplicable antes de cada entrega.
+- No es una herramienta oficial de la Universitat Politècnica de Catalunya ni de la Facultat de Nàutica de Barcelona.
+- No implica colaboración, aprobación ni patrocinio institucional.
 
-### Estructura obligatoria FNB
-1. Portada Â· 2. Resumen Â· 3. Abstract Â· 4. Ãndice Â· 5. IntroducciÃ³n Â· 6. CapÃ­tulos Â· 7. Conclusiones Â· 8. Referencias Â· 9. Anexos
+## Reglas documentadas
 
-### Estilos Word (solo estos)
-`TÃ­tulo` Â· `Encabezado 1/2/3` Â· `Normal` Â· `TÃ­tulo de tabla` Â· `Pie de figura`
+- Estructura del documento y jerarquía de apartados.
+- Uso coherente de estilos de Word.
+- Paginación, márgenes, tipografía e interlineado.
+- Tratamiento de figuras, tablas, ecuaciones y referencias.
+- Lista de cambios propuestos y tareas manuales pendientes.
 
-### TipografÃ­a
-- Times New Roman 12pt Â· Interlineado 1.5 Â· Justificado
-- MÃ¡rgenes: sup/inf 2.5 cm Â· izq 3.0 cm Â· der 2.5 cm
+## Flujo previsto
 
-### PaginaciÃ³n
-- Portada: sin nÃºmero Â· Secciones iniciales: romano Â· Desde IntroducciÃ³n: arÃ¡bigo
+1. Identificar la guía académica y su versión.
+2. Auditar la estructura y los estilos del documento.
+3. Proponer cambios sin alterar el contenido intelectual del autor.
+4. Aplicar la maquetación permitida.
+5. Entregar un informe de cambios y una lista de comprobaciones manuales.
 
-### Figuras y tablas
-- Figura: pie debajo â `Figura X.X. TÃ­tulo. Fuente: ...`
-- Tabla: tÃ­tulo encima â `Tabla X.X. TÃ­tulo`
+## Contenido
 
-### CitaciÃ³n ISO 690
-- `(Apellido AÃ±o)` Â· hasta 3 autores; mÃ¡s de 3: `et al.` Â· bibliografÃ­a alfabÃ©tica
+- `README.md`: especificación pública del prototipo y de sus límites.
 
----
+## Contexto
 
-## Entregables por intervenciÃ³n
+Desarrollado durante mi Trabajo Final de Grado en la FNB/UPC. No es una herramienta oficial de la UPC.
 
-1. Lista de cambios propuestos
-2. TransformaciÃ³n del contenido (estructura + estilos)
-3. Actualizaciones manuales necesarias en Word
-
----
-
-## Pipeline de automatizaciÃ³n complementario
-
-| Script | FunciÃ³n |
-|---|---|
-| `maquetacion_master.sh` | Pipeline unificado: maquetaciÃ³n + reportes |
-| `audit_valor_lectura.py` | AuditorÃ­a de legibilidad y densidad visual |
-| `generate_visual_backlog.py` | Backlog visual por capÃ­tulo |
-| `clean_caption_noise.py` | Limpieza de captions y fuentes duplicadas |
-
----
-
-## Uso como skill
-
-```
-Usa $maquetacion-tfg-fnb-upc para maquetar este TFG en Word segÃºn FNB/UPC.
-```
-
-Desarrollado durante la elaboraciÃ³n del TFG *"NavegaciÃ³n AutÃ³noma en Embarcaciones de PequeÃ±o Calado"* en FNB/UPC. Reutilizable para cualquier TFG/TFM presentado en FNB/UPC.
-
----
-
-## Acceso
-
-Solicitar: **robertgaraban@gmail.com** â Asunto: `[RevisiÃ³n tÃ©cnica] Skill TFG FNB/UPC`
-
----
-
-*Facultat de NÃ utica de Barcelona Â· UPC Â· HydroAbyss Technology and Innovation*
+**Autor:** Robert Garabán.
